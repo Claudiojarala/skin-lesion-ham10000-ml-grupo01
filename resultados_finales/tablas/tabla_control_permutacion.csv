@@ -1,0 +1,3 @@
+escenario,f1_macro_test_etiquetas_permutadas,accuracy,azar_esperado_f1_macro
+A_sin_balanceo,0.147,0.527,≈0.14
+B_sobremuestreo_train,0.116,0.246,≈0.14

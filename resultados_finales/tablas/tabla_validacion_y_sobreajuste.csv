@@ -1,0 +1,9 @@
+escenario,modelo,C,f1_cv,f1_cv_sd,f1_train_en_pliegues,f1_train_completo,test_f1_macro,brecha_train_cv,brecha_cv_test
+A_sin_balanceo,ResNet-50,0.01,0.461,0.021,0.949,0.938,0.513,0.487,-0.051
+A_sin_balanceo,DenseNet-201,0.01,0.562,0.012,0.944,0.93,0.618,0.381,-0.056
+A_sin_balanceo,ConvNeXt-Tiny,0.01,0.52,0.01,0.784,0.771,0.555,0.264,-0.034
+A_sin_balanceo,Swin-Tiny,0.01,0.527,0.027,0.784,0.762,0.554,0.256,-0.027
+B_sobremuestreo_train,ResNet-50,0.01,0.445,0.019,0.86,0.839,0.485,0.415,-0.04
+B_sobremuestreo_train,DenseNet-201,0.01,0.538,0.017,0.872,0.856,0.589,0.334,-0.051
+B_sobremuestreo_train,ConvNeXt-Tiny,0.01,0.495,0.015,0.761,0.729,0.537,0.265,-0.041
+B_sobremuestreo_train,Swin-Tiny,0.01,0.507,0.012,0.759,0.732,0.526,0.252,-0.018

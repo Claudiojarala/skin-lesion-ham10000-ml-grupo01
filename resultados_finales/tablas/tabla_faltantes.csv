@@ -1,0 +1,10 @@
+variable,faltantes,porc_faltantes,tipo
+lesion_id,0,0.0,object
+image_id,0,0.0,object
+dx,0,0.0,object
+dx_type,0,0.0,object
+age,57,0.57,float64
+sex,0,0.0,object
+localization,0,0.0,object
+dataset,0,0.0,object
+label,0,0.0,int64

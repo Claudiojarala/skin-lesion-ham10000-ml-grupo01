@@ -1,0 +1,10 @@
+indicador,valor
+imágenes,10015.0
+lesiones únicas,7470.0
+image_id duplicados,0.0
+lesiones con >1 imagen,1956.0
+imágenes que pertenecen a lesiones con >1 imagen,4501.0
+máx. imágenes por lesión,6.0
+edad: mediana,50.0
+edad: mín,0.0
+edad: máx,85.0

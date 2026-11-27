@@ -1,1 +1,7 @@
-Aquí se guardan las salidas del experimento final (tablas/, figuras/, TRAZABILIDAD.csv, entorno.json).
+Salidas del experimento final (Colab, T4, semilla 42 + semillas 43-46), tal como las generó el cuaderno:
+- tablas/    CSV de cada tabla del artículo (+ ids_entrenamiento.csv / ids_prueba.csv: imágenes de cada partición)
+- figuras/   figuras originales del cuaderno (rótulos en español)
+- TRAZABILIDAD.csv  vincula cada tabla/figura con la celda del cuaderno que la produjo
+- entorno.json      versiones de las bibliotecas y parámetros fijos
+- resumen_resultados.json  resultados de prueba de todas las semillas
+Las figuras del artículo (en inglés y español) están en ../articulo/ y se regeneran con ../articulo/scripts/.

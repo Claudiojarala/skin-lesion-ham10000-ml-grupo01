@@ -1,0 +1,17 @@
+modelo,metrica,diferencia_B_menos_A,ic95_inf,ic95_sup
+ResNet-50,f1_macro,-0.028,-0.064,0.006
+ResNet-50,balanced_acc,0.074,0.037,0.111
+ResNet-50,mcc,-0.039,-0.064,-0.015
+ResNet-50,accuracy,-0.086,-0.102,-0.07
+DenseNet-201,f1_macro,-0.029,-0.068,0.005
+DenseNet-201,balanced_acc,0.093,0.056,0.128
+DenseNet-201,mcc,-0.033,-0.058,-0.009
+DenseNet-201,accuracy,-0.063,-0.079,-0.048
+ConvNeXt-Tiny,f1_macro,-0.018,-0.055,0.018
+ConvNeXt-Tiny,balanced_acc,0.132,0.099,0.165
+ConvNeXt-Tiny,mcc,-0.047,-0.076,-0.02
+ConvNeXt-Tiny,accuracy,-0.084,-0.102,-0.066
+Swin-Tiny,f1_macro,-0.029,-0.062,-0.0
+Swin-Tiny,balanced_acc,0.102,0.07,0.137
+Swin-Tiny,mcc,-0.026,-0.053,-0.001
+Swin-Tiny,accuracy,-0.079,-0.097,-0.061

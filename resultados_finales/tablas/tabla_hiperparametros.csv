@@ -1,0 +1,10 @@
+escenario,modelo,mejor_C,espacio_busqueda,metodo,metrica_objetivo,validacion,ensayos
+L_base,Línea base (clase mayoritaria),,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+A_sin_balanceo,ResNet-50,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+A_sin_balanceo,DenseNet-201,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+A_sin_balanceo,ConvNeXt-Tiny,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+A_sin_balanceo,Swin-Tiny,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+B_sobremuestreo_train,ResNet-50,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+B_sobremuestreo_train,DenseNet-201,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+B_sobremuestreo_train,ConvNeXt-Tiny,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20
+B_sobremuestreo_train,Swin-Tiny,0.01,"[0.01, 0.1, 1.0, 10.0]",GridSearchCV,f1_macro,StratifiedGroupKFold(5) agrupada por lesion_id,20

@@ -1,0 +1,13 @@
+escenario,modelo,real,predicha,casos
+A_sin_balanceo,DenseNet-201,mel,nv,165
+A_sin_balanceo,DenseNet-201,nv,mel,78
+A_sin_balanceo,DenseNet-201,bkl,nv,63
+A_sin_balanceo,DenseNet-201,nv,bkl,48
+A_sin_balanceo,DenseNet-201,mel,bkl,42
+A_sin_balanceo,DenseNet-201,bcc,bkl,33
+B_sobremuestreo_train,DenseNet-201,nv,mel,250
+B_sobremuestreo_train,DenseNet-201,nv,bkl,115
+B_sobremuestreo_train,DenseNet-201,mel,nv,76
+B_sobremuestreo_train,DenseNet-201,mel,bkl,53
+B_sobremuestreo_train,DenseNet-201,nv,bcc,47
+B_sobremuestreo_train,DenseNet-201,bkl,mel,40

@@ -1,0 +1,13 @@
+escenario,modelo_A,modelo_B,solo_A_acierta,solo_B_acierta,p_mcnemar,p_holm,significativo_0_05
+A_sin_balanceo,ResNet-50,DenseNet-201,192,337,0.0,0.0,True
+A_sin_balanceo,ResNet-50,ConvNeXt-Tiny,191,313,0.0,0.0,True
+A_sin_balanceo,ResNet-50,Swin-Tiny,218,320,0.0,0.0001,True
+A_sin_balanceo,DenseNet-201,ConvNeXt-Tiny,225,202,0.287,0.574,False
+A_sin_balanceo,DenseNet-201,Swin-Tiny,251,208,0.0498,0.1495,False
+A_sin_balanceo,ConvNeXt-Tiny,Swin-Tiny,209,189,0.3409,0.574,False
+B_sobremuestreo_train,ResNet-50,DenseNet-201,241,455,0.0,0.0,True
+B_sobremuestreo_train,ResNet-50,ConvNeXt-Tiny,291,417,0.0,0.0,True
+B_sobremuestreo_train,ResNet-50,Swin-Tiny,317,441,0.0,0.0,True
+B_sobremuestreo_train,DenseNet-201,ConvNeXt-Tiny,373,285,0.0007,0.0014,True
+B_sobremuestreo_train,DenseNet-201,Swin-Tiny,371,281,0.0005,0.0014,True
+B_sobremuestreo_train,ConvNeXt-Tiny,Swin-Tiny,328,326,0.9688,0.9688,False

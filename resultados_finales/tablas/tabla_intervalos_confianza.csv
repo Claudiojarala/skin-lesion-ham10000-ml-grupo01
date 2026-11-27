@@ -1,0 +1,37 @@
+escenario,modelo,metrica,estimado,ic95_inf,ic95_sup
+L_base,Línea base (clase mayoritaria),f1_macro,0.114,0.112,0.116
+L_base,Línea base (clase mayoritaria),mcc,0.0,0.0,0.0
+L_base,Línea base (clase mayoritaria),balanced_acc,0.143,0.143,0.143
+L_base,Línea base (clase mayoritaria),accuracy,0.664,0.642,0.685
+A_sin_balanceo,ResNet-50,f1_macro,0.513,0.469,0.556
+A_sin_balanceo,ResNet-50,mcc,0.48,0.449,0.513
+A_sin_balanceo,ResNet-50,balanced_acc,0.472,0.429,0.523
+A_sin_balanceo,ResNet-50,accuracy,0.736,0.717,0.753
+A_sin_balanceo,DenseNet-201,f1_macro,0.618,0.576,0.656
+A_sin_balanceo,DenseNet-201,mcc,0.573,0.542,0.602
+A_sin_balanceo,DenseNet-201,balanced_acc,0.578,0.535,0.626
+A_sin_balanceo,DenseNet-201,accuracy,0.784,0.765,0.801
+A_sin_balanceo,ConvNeXt-Tiny,f1_macro,0.555,0.507,0.595
+A_sin_balanceo,ConvNeXt-Tiny,mcc,0.552,0.522,0.583
+A_sin_balanceo,ConvNeXt-Tiny,balanced_acc,0.507,0.464,0.557
+A_sin_balanceo,ConvNeXt-Tiny,accuracy,0.776,0.758,0.793
+A_sin_balanceo,Swin-Tiny,f1_macro,0.554,0.513,0.599
+A_sin_balanceo,Swin-Tiny,mcc,0.541,0.512,0.572
+A_sin_balanceo,Swin-Tiny,balanced_acc,0.529,0.485,0.585
+A_sin_balanceo,Swin-Tiny,accuracy,0.77,0.751,0.788
+B_sobremuestreo_train,ResNet-50,f1_macro,0.485,0.447,0.522
+B_sobremuestreo_train,ResNet-50,mcc,0.441,0.413,0.47
+B_sobremuestreo_train,ResNet-50,balanced_acc,0.546,0.501,0.591
+B_sobremuestreo_train,ResNet-50,accuracy,0.65,0.63,0.668
+B_sobremuestreo_train,DenseNet-201,f1_macro,0.589,0.551,0.623
+B_sobremuestreo_train,DenseNet-201,mcc,0.54,0.511,0.567
+B_sobremuestreo_train,DenseNet-201,balanced_acc,0.67,0.63,0.708
+B_sobremuestreo_train,DenseNet-201,accuracy,0.721,0.702,0.739
+B_sobremuestreo_train,ConvNeXt-Tiny,f1_macro,0.537,0.503,0.57
+B_sobremuestreo_train,ConvNeXt-Tiny,mcc,0.505,0.476,0.534
+B_sobremuestreo_train,ConvNeXt-Tiny,balanced_acc,0.639,0.596,0.682
+B_sobremuestreo_train,ConvNeXt-Tiny,accuracy,0.692,0.674,0.71
+B_sobremuestreo_train,Swin-Tiny,f1_macro,0.526,0.491,0.559
+B_sobremuestreo_train,Swin-Tiny,mcc,0.516,0.488,0.544
+B_sobremuestreo_train,Swin-Tiny,balanced_acc,0.631,0.583,0.684
+B_sobremuestreo_train,Swin-Tiny,accuracy,0.691,0.672,0.711

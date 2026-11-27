@@ -1,0 +1,24 @@
+artefacto,tipo,manuscrito,cuaderno
+tablas/tabla_distribucion_clases.csv,tabla,Tabla 1,B.2 Exploración
+tablas/tabla_faltantes.csv,tabla,Sección 2.2,B.2 Exploración
+tablas/tabla_resumen_calidad.csv,tabla,Sección 2.2,B.2 Exploración
+tablas/tabla_dx_type.csv,tabla,Sección 2.1,B.2 Exploración
+figuras/fig_exploracion.png,figura,Figura 2,B.2 Exploración
+tablas/tabla_particion.csv,tabla,Tabla 2,B.3 Partición
+tablas/tabla_particion_por_clase.csv,tabla,Tabla 2,B.3 Partición
+tablas/tabla_control_permutacion.csv,tabla,Sección 3.5 / Anexo,B.5 Control de fuga
+tablas/tabla_resultados_semilla42_completa.csv,tabla,Tablas 3-4,B.6 Experimento principal
+tablas/tabla_validacion_cruzada.csv,tabla,"Tabla 3 (validación cruzada, media ± DE)",B.7 Tablas
+tablas/tabla_validacion_y_sobreajuste.csv,tabla,Tabla 3 / interpretación de sobreajuste,B.7 Tablas
+tablas/tabla_prueba_cuatro_modelos.csv,tabla,Tabla 4,B.7 Tablas
+tablas/tabla_hiperparametros.csv,tabla,Tabla 3 / Anexo ítem 06,B.7 Tablas
+tablas/tabla_intervalos_confianza.csv,tabla,Tabla 4 (IC 95 %),B.8 Incertidumbre
+tablas/tabla_mcnemar.csv,tabla,Sección 3.3,B.8 Incertidumbre
+tablas/tabla_efecto_balanceo.csv,tabla,Tabla 5,B.8 Incertidumbre
+figuras/fig_cm_sin_balanceo.png,figura,Figura 3,B.9 Figuras
+figuras/fig_cm_sobremuestreo.png,figura,Figura 4,B.9 Figuras
+tablas/tabla_metricas_por_clase.csv,tabla,Tabla 6 / análisis de errores,B.9 Figuras
+tablas/tabla_confusiones_principales.csv,tabla,Sección 3.4 (análisis de errores),B.9 Figuras
+figuras/fig_comparacion_f1.png,figura,Figura 5,B.9 Figuras
+tablas/tabla_semillas_completa.csv,tabla,Anexo,B.10 Robustez
+tablas/tabla_robustez_semillas.csv,tabla,Tabla 7,B.10 Robustez

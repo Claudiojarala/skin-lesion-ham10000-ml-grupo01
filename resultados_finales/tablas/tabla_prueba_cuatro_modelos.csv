@@ -1,0 +1,10 @@
+escenario,modelo,test_accuracy,test_balanced_acc(=recall macro),test_precision_macro,test_f1_macro,test_mcc,test_auc_ovr_macro
+L_base,Línea base (clase mayoritaria),0.664,0.143,0.095,0.114,0.0,0.5
+A_sin_balanceo,ResNet-50,0.736,0.472,0.595,0.513,0.48,0.903
+A_sin_balanceo,DenseNet-201,0.784,0.578,0.684,0.618,0.573,0.944
+A_sin_balanceo,ConvNeXt-Tiny,0.776,0.507,0.643,0.555,0.552,0.933
+A_sin_balanceo,Swin-Tiny,0.77,0.529,0.605,0.554,0.541,0.935
+B_sobremuestreo_train,ResNet-50,0.65,0.546,0.47,0.485,0.441,0.883
+B_sobremuestreo_train,DenseNet-201,0.721,0.67,0.552,0.589,0.54,0.933
+B_sobremuestreo_train,ConvNeXt-Tiny,0.692,0.639,0.495,0.537,0.505,0.918
+B_sobremuestreo_train,Swin-Tiny,0.691,0.631,0.487,0.526,0.516,0.918
