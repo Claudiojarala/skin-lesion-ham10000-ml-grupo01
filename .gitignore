@@ -1,0 +1,11 @@
+# Datos del dataset (no se redistribuyen)
+*.zip
+*.jpg
+*.npz
+ham10000/
+features/
+meta_ham10000.csv
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

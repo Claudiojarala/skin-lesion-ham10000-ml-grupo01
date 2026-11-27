@@ -1,0 +1,1 @@
+Aquí se guardan las salidas del experimento final (tablas/, figuras/, TRAZABILIDAD.csv, entorno.json).
