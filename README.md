@@ -2,7 +2,7 @@
 
 Código reproducible del manuscrito *Training, evaluation and comparison of machine learning architectures for the classification of dermatological conditions* (Grupo 01, curso Aprendizaje Automático I, Universidad San Ignacio de Loyola, Lima, Perú). Revista objetivo: *Bioengineering* (MDPI), ISSN 2306-5354.
 
-**Autores:** Claudio Cronwell Jara Lamas y Bill Renzo Cornejo Condori.
+**Autores:** Claudio Cronwell Jara Lamas, Bill Renzo Cornejo Condori y Alfredo Daza Vergaray (autor de correspondencia, alfredo.daza@usil.pe, ORCID 0000-0002-2259-1070).
 
 ## Qué compara
 Cuatro extractores congelados preentrenados en ImageNet (ResNet-50, DenseNet-201, ConvNeXt-Tiny, Swin-Tiny) con regresión logística multinomial, bajo el **mismo protocolo**, sobre las 7 clases de HAM10000, con y sin equilibrado de clases.
