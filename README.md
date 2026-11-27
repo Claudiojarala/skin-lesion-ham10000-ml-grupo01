@@ -8,7 +8,7 @@ Código reproducible del manuscrito *Training, evaluation and comparison of mach
 Cuatro extractores congelados preentrenados en ImageNet (ResNet-50, DenseNet-201, ConvNeXt-Tiny, Swin-Tiny) con regresión logística multinomial, bajo el **mismo protocolo**, sobre las 7 clases de HAM10000, con y sin equilibrado de clases.
 
 ## Protocolo sin fuga de datos
-* Partición agrupada por `lesion_id` (`StratifiedGroupKFold`): ≈20 % de prueba, que no se usa hasta la evaluación final.
+* Partición agrupada por `lesion_id` (`StratifiedGroupKFold`): ≈30 % de prueba (3 de 10 pliegues agrupados), que no se usa hasta la evaluación final. Primero se particiona y después se balancea.
 * Validación cruzada agrupada de 5 pliegues y `GridSearchCV` solo sobre el entrenamiento.
 * Escalado y remuestreo dentro del `Pipeline`, ajustados solo con el entrenamiento de cada pliegue.
 * Ambos escenarios se evalúan sobre la **misma** prueba. Bootstrap por lesión (IC 95 %), McNemar con corrección de Holm, repetición con varias semillas y control con etiquetas permutadas.
