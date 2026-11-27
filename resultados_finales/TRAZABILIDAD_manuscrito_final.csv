@@ -1,0 +1,27 @@
+Artefacto (resultados_finales/),Elemento del manuscrito final,Sección del notebook
+tablas/tabla_distribucion_clases.csv,Tabla 1 (§2.1),B.2 Exploración
+tablas/tabla_dx_type.csv,§2.1 / este anexo,B.2 Exploración
+tablas/tabla_faltantes.csv,§2.2 / este anexo,B.2 Exploración
+tablas/tabla_resumen_calidad.csv,§2.1–2.2 / este anexo,B.2 Exploración
+figuras/fig_exploracion.png,Figura 1 (redibujada),B.2 Exploración
+tablas/tabla_particion.csv,Tabla 1 (§2.3),B.3 Partición
+tablas/tabla_particion_por_clase.csv,Tabla 1 (§2.3),B.3 Partición
+"tablas/ids_entrenamiento.csv, ids_prueba.csv",§2.3 (identificadores de la partición),B.11 Exportación
+tablas/tabla_control_permutacion.csv,§3.7,B.5 Control de fuga
+tablas/tabla_resultados_semilla42_completa.csv,Tablas 2 y 3,B.6 Experimento principal
+tablas/tabla_validacion_cruzada.csv,Tabla 2 (apoyo),B.7 Tablas
+tablas/tabla_validacion_y_sobreajuste.csv,Tabla 2 (§3.1),B.7 Tablas
+tablas/tabla_prueba_cuatro_modelos.csv,Tabla 3 (§3.2),B.7 Tablas
+tablas/tabla_hiperparametros.csv,Tabla A1 (Apéndice A) y §2.4,B.7 Tablas
+tablas/tabla_intervalos_confianza.csv,Tabla 3 (intervalos de F1 macro) y §3.2,B.8 Incertidumbre
+tablas/tabla_mcnemar.csv,Tabla 4 (§3.3),B.8 Incertidumbre
+tablas/tabla_efecto_balanceo.csv,Tabla 5 (§3.4),B.8 Incertidumbre
+figuras/fig_comparacion_f1.png,Figura 3 (redibujada),B.9 Figuras
+tablas/tabla_metricas_por_clase.csv,Tabla 6 (§3.5),B.9 Figuras
+tablas/tabla_confusiones_principales.csv,§3.5 (análisis de errores),B.9 Figuras
+figuras/fig_cm_sin_balanceo.png,Figura 4 (redibujada),B.9 Figuras
+figuras/fig_cm_sobremuestreo.png,Figura 5 (redibujada),B.9 Figuras
+tablas/tabla_semillas_completa.csv,Tabla 7 (fuente) y este anexo,B.10 Robustez
+tablas/tabla_robustez_semillas.csv,Tabla 7 (§3.6),B.10 Robustez
+entorno.json,Tabla A1 (Apéndice A),B.11 Exportación
+(sin notebook) articulo/scripts/make_flow.py,Figura 2 (flujo experimental),Script del repositorio

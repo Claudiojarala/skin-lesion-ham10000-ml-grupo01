@@ -35,14 +35,14 @@ Repositorio: Harvard Dataverse, https://doi.org/10.7910/DVN/DBW86T. **No se redi
 3. **Parte B** (CPU): partición, validación, evaluación, estadística y exportación a `resultados_finales/`.
 4. Prueba rápida de humo: `N_SUBSET = 600` (no usar esas cifras en el artículo).
 
-Las versiones de librerías usadas quedan registradas en `resultados_finales/entorno.json`. `TRAZABILIDAD.csv` indica qué sección del cuaderno genera cada tabla y figura del manuscrito.
+Las versiones de librerías usadas quedan registradas en `resultados_finales/entorno.json`. `TRAZABILIDAD_manuscrito_final.csv` indica qué sección del cuaderno genera cada tabla y figura del manuscrito final (`TRAZABILIDAD.csv`, exportado por el cuaderno, conserva la numeración de un borrador anterior).
 
 ## Estructura
 ```
 notebooks/            cuaderno de experimentos
 resultados_finales/   salidas del experimento final (tablas, figuras, trazabilidad, entorno)
 articulo/             figuras del artículo (en/es) y scripts que las regeneran
-docs/                 documentación de apoyo (matriz de correcciones)
+docs/                 manuscritos (ES/EN), anexo experimental, datos o acceso, ficha de revista, matriz de correcciones y declaraciones
 requirements.txt
 ```
 Nota: las matrices de confusión de `articulo/scripts/cms.py` se transcribieron de las figuras del cuaderno y se validaron contra la tabla de métricas por clase (`tabla_metricas_por_clase.csv`).
